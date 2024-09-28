@@ -239,7 +239,6 @@ def add_btn_pressed():
     add_product_amount_label = Label(add_window, text="Product amount", fg="white", bg="#33914f", font=mini_font)
     add_product_amount_label.place(x=20, y=450)
 
-
     add_product_name_text = Text(add_window, fg="black", bg="white", font=mini_font)
     add_product_name_text.place(x=225, y=45, width=180, height=50)
 
@@ -260,7 +259,6 @@ def add_btn_pressed():
                                                          add_product_desc_text, add_product_code_text,
                                                          add_product_amount_text,add_window))
     add_product_btn.place(x=150, y=530)
-
     add_window.mainloop()
 
 
